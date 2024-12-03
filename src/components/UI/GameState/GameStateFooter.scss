@@ -55,6 +55,27 @@
       }
     }
 
+    .u-connect {
+      width: 5vw;
+      height: 5vw;
+      background-image: url("../../../assets/img/confirm_btn_bg.png");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      cursor: pointer;
+      &:active {
+        width: 4.9vw;
+        height: 4.9vw;
+      }
+    }
+    .u-connect span {
+      display: flex;
+      align-self: aseline;
+      flex-direction: column;
+      height: 90%;
+      align-items: center;
+      justify-content: center;
+    }
+
     .u-draw {
       width: 5vw;
       height: 5vw;
